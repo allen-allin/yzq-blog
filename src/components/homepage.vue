@@ -12,6 +12,7 @@
         	<div class="btn-group">
         		<mu-raised-button label="Python" class="demo-raised-button" :to="{path: '/blog/piousLove'}" />
         		<mu-raised-button label="前端" class="demo-raised-button" :to="{path: '/blog/zys'}" />
+        		<mu-raised-button label="区块链" class="demo-raised-button" :to="{path: '/blog/zys'}" />
         		<mu-raised-button label="about" class="demo-raised-button" :to="{path: '/blog/zys'}"/>
         	</div>
         </div>

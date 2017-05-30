@@ -6,6 +6,7 @@ import piousLove from '@/components/piousLove'
 import blogContent from '@/components/blog-content'
 import homePage from '@/components/homePage'
 import writeBlog from '@/components/editBlog'
+import detail from '@/components/blog-detail'
 
 
 Vue.use(Router)
@@ -23,6 +24,9 @@ const routes = [{
 }, {
 	path: '/editBlog',
 	component: writeBlog
+}, {
+    path: '/blog/detail/:title',
+    component: detail
 }]
 export default new Router({
     routes,
